@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ffccd5;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.sobre-nosotros, .nota-fundador, .mision {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    text-align: left;
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffe4e6;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.sobre-nosotros .texto, .nota-fundador .texto, .mision .texto {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.sobre-nosotros img, .mision img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.nota-fundador img {
+    max-width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.cita-fundador {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+    width: 100%;
+    background-color: #ffccd5;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.cita-fundador p {
+    margin: 0.5rem 0;
+}
+
+section {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+.boton-volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f4c2c2;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #d89ca4;
+}
+.boton-volver:hover {
+    background-color: #e8a6a6;
+}

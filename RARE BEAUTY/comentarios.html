@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deja tu Comentario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('fondo.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255, 240, 245, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ff99cc;
+            border-radius: 5px;
+        }
+        button {
+            background: #ff66b2;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #ff3385;
+        }
+        .back-button {
+            display: block;
+            margin-top: 10px;
+            background: #ffccdd;
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background: #ff99bb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Deja tu Comentario</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <select required>
+                <option value="">Selecciona un producto</option>
+                <option value="labial">Rubores</option>
+                <option value="base">Base de maquillaje</option>
+                <option value="sombra">Skin care</option>
+                <option value="base">Perfume</option>
+                <option value="base">Correctores</option>
+                <option value="base">Labiales</option>
+                <option value="base">Iluminador</option>
+                <option value="base">Mascara de pestañas</option>
+                <option value="base">Fijador</option>
+                <option value="base">Brochas</option>
+                <option value="base">Polvos</option>
+                <option value="base">Sobras de ojos</option>
+            </select>
+            <input type="number" placeholder="Calificación (1-5)" min="1" max="5" required>
+            <textarea placeholder="Escribe tu comentario" rows="4" required></textarea>
+            <input type="file" accept="image/*">
+            <input type="text" placeholder="Ciudad" required>
+            <input type="date" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <a href="rareimpac.html" class="back-button">Volver a Rare Impact</a>
+    </div>
+</body>
+</html>
